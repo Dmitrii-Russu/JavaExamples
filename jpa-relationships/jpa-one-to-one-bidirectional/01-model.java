@@ -8,6 +8,7 @@ class Customer  {
             mappedBy = "customer",
             cascade = CascadeType.ALL,
             fetch = FetchType.LAZY,
+            orphanRemoval = true,
             optional = false)
     Credential credential;
 
@@ -22,6 +23,21 @@ class Customer  {
         }
         this.credential = credential;
     }
+
+    public void addCredential(Credential credential) {
+        this.credential = credential;
+        if (credential != null) {
+            credential.setCustomer(this);
+        }
+    }
+
+    public void removeCredential() {
+        if (this.credential != null) {
+            this.credential.setCustomer(null);
+            this.credential = null;
+        }
+    }
+
 }
 
 @Entity
