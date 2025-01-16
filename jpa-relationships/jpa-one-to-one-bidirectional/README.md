@@ -24,6 +24,7 @@
 #### Key Points
 - **Bidirectional Sync:** Both `Customer` and `Credential` references are synchronized.
 - **Cascade & Orphan Removal:** With `cascade = CascadeType.ALL` and `orphanRemoval = true`, breaking the relationship removes `Credential` from the database.
+
 - **Usage:**
     - Use `setCredential` for simplicity (handles both add and remove).
     - Use `addCredential`/`removeCredential` for clear separation of operations.
