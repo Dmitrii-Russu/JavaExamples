@@ -13,7 +13,7 @@
   For entities with business keys, the `@NaturalId` annotation from Hibernate can be used.
 
 - **Effective mapping for `@OneToOne` associations using `@MapsId`.**  
-  For efficient `@OneToOne` mapping and improved performance, use `@MapsId` to share the primary key between the parent and child tables.  
+  For efficient `@OneToOne` mapping use `@MapsId` to share the primary key between the parent and child tables.  
   This allows the child entity to have the same primary key as the parent, which also serves as the foreign key.  
   This approach eliminates the need for bidirectional relationships and prevents unnecessary secondary queries.  
   Using `@MapsId` reduces the index size and enhances performance, especially with lazy loading, while preventing EAGER fetching and the associated additional queries.
