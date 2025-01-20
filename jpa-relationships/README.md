@@ -2,7 +2,7 @@
 
 - **Always synchronize both sides of the entity association.**  
   In the context of Hibernate, only synchronized bidirectional associations are guaranteed to be properly persisted in the database.  
-  For synchronization, the parent entity uses specific methods for adding and removing child entities, which update collections or references.
+  For synchronization, the parent entity uses specific methods for adding and removing child entities, which update references.
 
 - **Avoid the EAGER fetching strategy.**  
   The `EAGER` strategy for `@ManyToOne` and `@OneToOne` associations can negatively affect performance.  
