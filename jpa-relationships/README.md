@@ -1,4 +1,4 @@
-# Working with Entity Associations and Fetch Strategies in JPA and Hibernate
+# Working with Entity Associations in JPA and Hibernate
 
 - **Always synchronize both sides of the entity association.**  
   In the context of Hibernate, only synchronized bidirectional associations are guaranteed to be properly persisted in the database.  
