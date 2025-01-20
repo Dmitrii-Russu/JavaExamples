@@ -9,7 +9,7 @@
   Instead, it is preferable to use the `FetchType.LAZY` strategy.
 
 - **Implement `equals` and `hashCode` methods.**  
-  Implementing these methods based on the entity's identifier or business key ensures correct operation of collections (`Set`, `List`) in the model.  
+  Implementing these methods based on the entity's identifier or business key ensures correct operation of collections in the model.  
   For entities with business keys, the `@NaturalId` annotation from Hibernate can be used.
 
 - **Effective mapping for `@OneToOne` associations using `@MapsId`.**  
