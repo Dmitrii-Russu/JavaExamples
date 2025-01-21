@@ -27,3 +27,4 @@
 - [The best way to map a @OneToOne relationship with JPA and Hibernate](https://vladmihalcea.com/the-best-way-to-map-a-onetoone-relationship-with-jpa-and-hibernate/) - *Article by Vlad Mihalcea*
 - [The best way to use one-to-one table relationships](https://vladmihalcea.com/one-to-one-table-relationships/) - *Article by Vlad Mihalcea*
 - [14 High-Performance Java Persistence Tips](https://vladmihalcea.com/14-high-performance-java-persistence-tips/) - *Article by Vlad Mihalcea*
+- [The best way to map a @OneToMany relationship with JPA and Hibernate](https://vladmihalcea.com/the-best-way-to-map-a-onetomany-association-with-jpa-and-hibernate/) - *Article by Vlad Mihalcea*
