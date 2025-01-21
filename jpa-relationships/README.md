@@ -19,8 +19,7 @@
   Using `@MapsId` reduces the index size and enhances performance, especially with lazy loading, while preventing EAGER fetching and the associated additional queries.
 
 - **Handling Collections in Queries.**  
-  Unlike queries, collections are less flexible since they cannot be easily paginated, meaning that we cannot use them when the number of child associations is rather high.  
-  An entity query might be a better alternative in many situations.
+  Unlike queries, collections are less flexible since they cannot be easily paginated, meaning that we cannot use them when the number of child associations is rather high. An entity query might be a better alternative in many situations.
 
 ## Useful Resources
 
