@@ -22,3 +22,4 @@
 
 - [How to synchronize bidirectional entity associations with JPA and Hibernate](https://vladmihalcea.com/jpa-hibernate-synchronize-bidirectional-entity-associations/) - *Article by Vlad Mihalcea*
 - [The best way to map a @OneToOne relationship with JPA and Hibernate](https://vladmihalcea.com/the-best-way-to-map-a-onetoone-relationship-with-jpa-and-hibernate/) - *Article by Vlad Mihalcea*
+- [The best way to use one-to-one table relationships](https://vladmihalcea.com/one-to-one-table-relationships/) - *Article by Vlad Mihalcea*
