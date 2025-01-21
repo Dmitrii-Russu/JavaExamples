@@ -8,8 +8,7 @@ class Customer  {
             mappedBy = "customer",
             cascade = CascadeType.ALL,
             fetch = FetchType.LAZY,
-            orphanRemoval = true,
-            optional = false)
+            orphanRemoval = true)
     Credential credential;
 
     // Use either `setCredential` (which handles both setting and removing the relationship)
