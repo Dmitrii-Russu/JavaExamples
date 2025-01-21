@@ -37,4 +37,4 @@
 
 ## Useful Resources
 
-[The best way to map a @OneToMany relationship with JPA and Hibernate](https://vladmihalcea.com/the-best-way-to-map-a-onetomany-association-with-jpa-and-hibernate/) - *Article by Vlad Mihalcea*
+- [The best way to map a @OneToMany relationship with JPA and Hibernate](https://vladmihalcea.com/the-best-way-to-map-a-onetomany-association-with-jpa-and-hibernate/) - *Article by Vlad Mihalcea*
