@@ -18,8 +18,13 @@
   This approach eliminates the need for bidirectional relationships and prevents unnecessary secondary queries.  
   Using `@MapsId` reduces the index size and enhances performance, especially with lazy loading, while preventing EAGER fetching and the associated additional queries.
 
+- **Handling Collections in Queries.**  
+  Unlike queries, collections are less flexible since they cannot be easily paginated, meaning that we cannot use them when the number of child associations is rather high.  
+  An entity query might be a better alternative in many situations.
+
 ## Useful Resources
 
 - [How to synchronize bidirectional entity associations with JPA and Hibernate](https://vladmihalcea.com/jpa-hibernate-synchronize-bidirectional-entity-associations/) - *Article by Vlad Mihalcea*
 - [The best way to map a @OneToOne relationship with JPA and Hibernate](https://vladmihalcea.com/the-best-way-to-map-a-onetoone-relationship-with-jpa-and-hibernate/) - *Article by Vlad Mihalcea*
 - [The best way to use one-to-one table relationships](https://vladmihalcea.com/one-to-one-table-relationships/) - *Article by Vlad Mihalcea*
+- [14 High-Performance Java Persistence Tips](https://vladmihalcea.com/14-high-performance-java-persistence-tips/) - *Article by Vlad Mihalcea*
