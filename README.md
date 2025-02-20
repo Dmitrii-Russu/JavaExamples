@@ -1,4 +1,4 @@
-# java-examples
+# javaExamples
 
 "JavaExamples" is a collection of concise code snippets and best practices for Java development. 
 
